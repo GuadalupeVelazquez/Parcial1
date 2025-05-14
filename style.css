@@ -1,0 +1,271 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  margin: 0; 
+  font-family: sans-serif; 
+}
+
+.main-nav {
+  background-color: #6ab3d4; 
+  color: white; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 20px; 
+}
+
+.logo a {
+  color: white; 
+  text-decoration: none; 
+  font-size: 1.5em; 
+  font-weight: bold; 
+}
+
+.nav-links {
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+}
+
+.nav-links li {
+  margin-left: 20px; 
+}
+
+.nav-links li a {
+  color: white; 
+  text-decoration: none; 
+  padding: 8px 12px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; /
+}
+
+.nav-links li a:hover {
+  background-color: #3b80a0; 
+; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+}
+
+#banner-container {
+  width: 100%;
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#banner-container canvas {
+  display: block; 
+}
+
+
+#banner-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner-container canvas {
+  display: block;
+}
+
+.featured-art {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section-title {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.info-cards-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: rgba(230, 230, 255, 0.5); 
+}
+
+.info-cards-section .section-title {
+  color: #777;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.info-cards-section .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.info-cards-section .info-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 320px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.info-cards-section .info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-cards-section .info-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.info-cards-section .info-card h3 {
+  padding: 20px 15px 10px;
+  margin: 0;
+  color: #748baa;
+  font-size: 1.8em;
+}
+
+.info-cards-section .info-card p {
+  padding: 0 20px 20px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.info-cards-section .info-card a {
+  display: inline-block;
+  background-color: #b0c4de; 
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.info-cards-section .info-card a:hover {
+  background-color: #87a3b8; 
+}
+
+.info-cards-section .banner-explanation {
+  color: #777;
+  font-size: 0.95em;
+  line-height: 1.6;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(255, 240, 245, 0.7); 
+  color: #555;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid #eee; 
+}
+
+.footer-info,
+.footer-students {
+  margin-bottom: 20px;
+}
+
+.footer-info h3,
+.footer-students h3 {
+  color: #777;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.footer-info p {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.footer-students ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-students li {
+  display: inline;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+.footer-students li:last-child {
+  margin-right: 0;
+}
+
+.footer-copyright {
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 20px;
+}
+
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+  }
+
+  .footer-info,
+  .footer-students {
+    margin-bottom: 0;
+  }
+
+  .footer-copyright {
+    margin-top: 0;
+  }
+
+  .footer-students ul {
+    text-align: left;
+  }
+
+  .footer-students li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
+.info-cards-section .banner-explanation-container {
+  text-align: center; 
+  padding: 30px 20px;
+}
+
+.info-cards-section .explanation-title {
+  color: #777;
+  font-size: 2.0em; 
+  margin-bottom: 10px;
+}
+
+.info-cards-section .banner-explanation-text {
+  color: #748baa; 
+  font-size: 18px; 
+  line-height: 1.6;
+  margin: 0 auto; 
+  max-width: 800px; 
+}
