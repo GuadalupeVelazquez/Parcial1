@@ -1,6 +1,6 @@
 let brushStrokes = [];
-let line1 = "Lumina";
-let line2 = "Media";
+let line1 = "Diseño y Prog. Web";
+let line2 = "Parcial 1";
 
 let displayedLine1 = "";
 let displayedLine2 = "";
